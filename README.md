@@ -9,7 +9,7 @@ Repository containing required files and scripts to deploy the Driving Test usin
   - [Folder Structure](#folder-structure)
   - [Requirements](#requirements)
     - [Accounts](#accounts)
-    - [Local Machine Installations](#local-machine-installations)
+    - [Local Machine Installations and Minimum Required Version](#local-machine-installations-and-minimum-required-version)
   - [Overall Setup](#overall-setup)
     - [GitHub](#github)
     - [Backend](#backend)
@@ -32,7 +32,7 @@ Repository containing required files and scripts to deploy the Driving Test usin
 
 ## Requirements
 
-_Note: Setting up of Amazon Web Service requirements is explained in the [**Account Setup Section**](#account-setup)._
+_Note 1: Setting up of Amazon Web Service requirements is explained in the [**Account Setup Section**](#account-setup)._
 
 ### Accounts
 
@@ -40,13 +40,13 @@ _Note: Setting up of Amazon Web Service requirements is explained in the [**Acco
 - AWS IAM authorised user
 - GitHub Account
 
-### Local Machine Installations
+### Local Machine Installations and Minimum Required Version
 
-- AWS Command Line Interface (CLI)
-- AWS Serverless Application Model (SAM) CLI
-- Git
-- Node.js
-- Python
+- AWS Command Line Interface (CLI) v2.11.25
+- AWS Serverless Application Model (SAM) CLI v1.84.0
+- Git v2.41.0
+- Node.js v9.5.1
+- Python v3.11.4
 
 ## Overall Setup
 
